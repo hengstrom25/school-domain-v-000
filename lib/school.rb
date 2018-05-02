@@ -8,6 +8,10 @@ ROSTER = {}
   def initialize(name)
     @name = name
   end
-
+  
+  def roster=(roster)
+    @roster = roster
+    ROSTER << name
+  end
   
 end
