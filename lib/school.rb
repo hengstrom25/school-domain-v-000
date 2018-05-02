@@ -11,7 +11,7 @@ ROSTER = {}
   
   def roster=(roster)
     @roster = roster
-    ROSTER << name
+    ROSTER << student
   end
   
 end
