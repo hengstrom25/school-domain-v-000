@@ -1,6 +1,7 @@
 # code here!
 class School
-  attr_accessor :name
+  attr_accessor :school
+  
  ROSTER = {}
   
  
