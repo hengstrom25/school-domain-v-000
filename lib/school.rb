@@ -2,10 +2,11 @@
 class School
   attr_reader :roster
   
-   ROSTER = {}
+ROSTER = {}
   
   
   def initialize(new)
+    @new = new
   end
 
   
